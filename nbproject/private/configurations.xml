@@ -4,7 +4,7 @@
   <confs>
     <conf name="Debug" type="1">
       <toolsSet>
-        <developmentServer>root@symbiofilter:22</developmentServer>
+        <developmentServer>root@192.168.30.88:22</developmentServer>
         <platform>2</platform>
       </toolsSet>
       <dbx_gdbdebugger version="1">
@@ -26,11 +26,11 @@
         <runcommandpicklist>
           <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" /sys/devices/w1_bus_master1/28-051690467fff/w1_slave 73</runcommandpicklistitem>
-          <runcommandpicklistitem>"${OUTPUT_PATH}" /sys/devices/w1_bus_master1/28-051690467fff/w1_slave 73 84</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" /sys/devices/w1_bus_master1/28-051690467fff/w1_slave 74 1413</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" /sys/devices/w1_bus_master1/28-051690467fff/w1_slave 74 84</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /sys/devices/w1_bus_master1/28-051690467fff/w1_slave 73 84</runcommandpicklistitem>
         </runcommandpicklist>
-        <runcommand>"${OUTPUT_PATH}" /sys/devices/w1_bus_master1/28-051690467fff/w1_slave 74 84</runcommand>
+        <runcommand>"${OUTPUT_PATH}" /sys/devices/w1_bus_master1/28-051690467fff/w1_slave 73 84</runcommand>
         <rundir></rundir>
         <buildfirst>true</buildfirst>
         <terminal-type>0</terminal-type>
